@@ -14,7 +14,7 @@ const Items = () => {
                 <h3>{isAdd ? 'Phone' : 'Desktop'} Wallpaper</h3>
                 <p>Free HD download for  {isAdd ? 'mobils' : 'Desktop'}</p>
             </div>
-            <div className='item_l'>
+            <div className='item_ll'>
                <button onClick={() =>toAdd(!isAdd)}> { isAdd ?<IoIosDesktop size={50} />  : <IoMdPhonePortrait size={50} />}</button>
                <button onClick={() =>toAdd(!isAdd)}> { isAdd ?'For Desktop'  : 'For Phone'}</button>
 

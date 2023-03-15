@@ -73,7 +73,9 @@
 
 /* for 22 inch */
 @media screen and (max-width : 1680px) {
-    
+    .header_tex1{
+        font-size: 95px;
+    }
     /* for 20 inch */
     @media screen and (min-height : 1200px) {
 
@@ -82,12 +84,16 @@
 
 /* for 15 inch */
 @media screen and (max-width : 1366px) {
-    
+    .header_tex1{
+        font-size: 85px;
+    }
 }
 
 /* for 13 inch */
 @media screen and (max-width : 1280px) {
-
+    .header_tex1{
+        font-size: 75px;
+    }
 
     /* for 19 inch */
     @media screen and (min-height: 1024px) {
@@ -100,28 +106,65 @@
 .header_search input{
     padding: 10px 250px;
 }
+.item_l{
+    margin-left: 10px;
+    
+}
 }
 
 /* for all tab inch */
 @media  screen and (max-width:884px) {
-
+    .item_l{
+        margin-left: 10px;
+        
+    }
+    .header_tex1{
+        font-size: 60px;
+    }
+    .header_search input{
+        padding: 10px 100px;
+        font-size: 25px;
+    }
+    .item_l{
+        display: none;
+      
+        
+    }
 }
 
 /* for all mobile inch */
 @media  screen and (max-width:750px) {
     .header_search input{
-        padding: 7px 80px;
+        padding: 0px 40px;
+        font-size: 20px;
     }
 
     .header_tex1{
-        font-size: 19px;
+        font-size: 25px;
     }
+    .item_l{
+        display: none;
+      
+        
+    }
+    .heder_r{
+      
+        font-size: 50px;
+    }
+    
+    
+    .heder_l div{
+        padding: 0px 0px;
+        font-size: 18px;
+    }
+    .item_r p{
+        font-size: 50px;
+    }
+    
 }
 
 @media  screen and (max-width:375px) {
    
 
-    .header_tex1{
-        font-size: 15px;
-    }
+    
 }

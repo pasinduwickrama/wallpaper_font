@@ -9,10 +9,10 @@
     padding: 20px 100px;
     color: rgb(255, 255, 255);
 }
-.item_l{
+.item_ll{
     font-size: 20px;
 }
-.item_l button{
+.item_ll button{
     border: 0px;
     background-color: rgb(255, 255, 255);
     background-color: transparent;
@@ -84,7 +84,7 @@
     .item_r p{
         font-size: 15px;
     }
-    .item_l{
+    .item_ll{
         font-size: 15px;
     }
    
