@@ -26,7 +26,7 @@
     width: 100%;
     height: 100%;
     padding: 0px 10px;
-    border-radius: 30px;
+    border-radius: 15px;
     
     
 }
@@ -60,7 +60,7 @@
         
     }
     .boy{
-        margin-left: 20px;
+       
         
         
     }
@@ -82,7 +82,7 @@
     
 }
 .boy{ 
-    margin-left: 20px;   
+    
 }
   
     
@@ -122,14 +122,14 @@
 /* for all tab inch */
 @media  screen and (max-width:884px) {
    .boy{
-    margin-left: 20px;  
+ 
      grid-template-columns: repeat(4, 1fr); 
 }
 }
 
 @media  screen and (max-width:834px) {
      .boy{
-    margin-left: 10px;   
+      
     grid-template-columns: repeat(4, 1fr);
 }
 }
@@ -137,37 +137,14 @@
 /* for all mobile inch */
 @media  screen and (max-width:770px) {
      .boy{
-      
-    grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
 }
 .card_body{
     
-    height: 600px;
+    height: 250px;
    
     
 }
-}
-@media  screen and (max-width:490px) {
-      .boy{
-    margin-left: 10px;   
-    grid-template-columns: repeat(1, 1fr);
-}
-.card_body{
-   
-    height: 600px;
-   
-    
-}
-}
-@media  screen and (max-width:390px) {
-      .boy{
-    margin-left: 10px;   
-    grid-template-columns: repeat(1, 1fr);
-}
-.card_body{
-    
-    height: 600px;
-   
-    
-}
+
 }
