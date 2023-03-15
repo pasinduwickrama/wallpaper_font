@@ -1,0 +1,169 @@
+.boy{
+    
+    display: grid;
+    
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin-left: 100px;
+    
+    
+}
+.card_body{
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    
+}
+.card_body img{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px;
+    
+}
+.card_tex{
+    display: flex;
+  flex-direction: row;
+  justify-content: end;
+ margin-right: 20px;
+  
+    
+}
+.card_tex h2{
+    position: absolute;
+    color: aliceblue;
+}
+
+
+.card_tex p{
+    position: absolute;
+    inset:  2px 180px ;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+
+/* for 22 inch */
+@media screen and (max-width : 1680px) {
+    .card_body{
+        width: 200px;
+        height: 250px;
+        
+    }
+    .boy{
+        margin-left: 20px;
+        
+        
+    }
+    /* for 20 inch */
+   
+}
+
+
+/* for 15 inch */
+@media screen and (max-width : 1366px) {
+    
+}
+
+/* for 13 inch */
+@media screen and (max-width : 1280px) {
+   .card_body{
+    width: 180px;
+    height: 250px;
+    
+}
+.boy{ 
+    margin-left: 20px;   
+}
+  
+    
+    /* for 19 inch */
+    @media screen and (min-height: 1024px) {
+
+    }
+}
+@media screen and (max-width : 1200px) {
+    .boy{
+    
+    
+        
+        grid-template-columns: repeat(5, 1fr);
+       
+        
+        
+    }
+}
+@media screen and (max-width : 1000px) {
+    .boy{
+    
+    
+        
+        grid-template-columns: repeat(4, 1fr);
+       
+        
+        
+    }
+}
+
+/* for 17 inch */
+@media screen and (max-width : 970px) {
+
+}
+
+/* for all tab inch */
+@media  screen and (max-width:884px) {
+   .boy{
+    margin-left: 20px;  
+     grid-template-columns: repeat(4, 1fr); 
+}
+}
+
+@media  screen and (max-width:834px) {
+     .boy{
+    margin-left: 10px;   
+    grid-template-columns: repeat(4, 1fr);
+}
+}
+
+/* for all mobile inch */
+@media  screen and (max-width:770px) {
+     .boy{
+    margin-left: 120px;   
+    grid-template-columns: repeat(1, 1fr);
+}
+.card_body{
+    width: 500px;
+    height: 600px;
+   
+    
+}
+}
+@media  screen and (max-width:490px) {
+      .boy{
+    margin-left: 10px;   
+    grid-template-columns: repeat(1, 1fr);
+}
+.card_body{
+    width: 380px;
+    height: 600px;
+   
+    
+}
+}
+@media  screen and (max-width:390px) {
+      .boy{
+    margin-left: 10px;   
+    grid-template-columns: repeat(1, 1fr);
+}
+.card_body{
+    width: 340px;
+    height: 600px;
+   
+    
+}
+}

@@ -1,0 +1,127 @@
+.header_body{
+    background: url('/src/img/12.jpg');
+    height: 580px;
+    object-fit: cover;
+    width: 100%;
+   
+}
+.heder_item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+.heder_r{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-size: 30px;
+    color: #ffffff;
+}
+.item_l{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    
+}
+.item_l p{
+    font-size: 30px;
+    padding: 0px 20px;
+}
+.heder_l{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.heder_l div{
+    padding: 0px 20px;
+}
+.header_text{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: #ffffff;
+}
+.header_tex1{
+    font-size: 120px;
+    font-weight: 300;
+    align-items: center;
+    font-family: 'Tilt Prism', cursive;
+}
+.header_search{
+    margin-top: 50px;
+}
+
+.header_search input{
+    padding: 10px 200px;
+    border-radius: 20px;
+    border-color: azure;
+    border-width: 5px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+
+
+/* for 22 inch */
+@media screen and (max-width : 1680px) {
+    
+    /* for 20 inch */
+    @media screen and (min-height : 1200px) {
+
+    }
+}
+
+/* for 15 inch */
+@media screen and (max-width : 1366px) {
+    
+}
+
+/* for 13 inch */
+@media screen and (max-width : 1280px) {
+
+
+    /* for 19 inch */
+    @media screen and (min-height: 1024px) {
+
+    }
+}
+
+/* for 17 inch */
+@media screen and (max-width : 970px) {
+.header_search input{
+    padding: 10px 250px;
+}
+}
+
+/* for all tab inch */
+@media  screen and (max-width:884px) {
+
+}
+
+/* for all mobile inch */
+@media  screen and (max-width:750px) {
+    .header_search input{
+        padding: 7px 80px;
+    }
+
+    .header_tex1{
+        font-size: 19px;
+    }
+}
+
+@media  screen and (max-width:375px) {
+   
+
+    .header_tex1{
+        font-size: 15px;
+    }
+}

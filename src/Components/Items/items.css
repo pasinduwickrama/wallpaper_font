@@ -1,0 +1,110 @@
+.item_body{
+   
+}
+
+.item_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 100px;
+    color: rgb(255, 255, 255);
+}
+.item_l{
+    font-size: 20px;
+}
+.item_l button{
+    border: 0px;
+    background-color: rgb(255, 255, 255);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+.item_cus{
+    padding: 10px 150px;
+    
+}
+.button_cus button{
+    padding: 10px 50px;
+    border: 0px;
+    background-color: rgb(232, 243, 241);
+    border-radius: 5px;
+    box-shadow: rgba(26, 26, 32, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 20px -18px;
+
+
+}
+.button_cus {
+    padding: 10px 0px;
+
+}
+
+
+
+/* for 22 inch */
+@media screen and (max-width : 1680px) {
+    
+    /* for 20 inch */
+    @media screen and (min-height : 1200px) {
+
+    }
+}
+
+/* for 15 inch */
+@media screen and (max-width : 1366px) {
+    
+}
+
+/* for 13 inch */
+@media screen and (max-width : 1280px) {
+
+    /* for 19 inch */
+    @media screen and (min-height: 1024px) {
+
+    }
+}
+
+/* for 17 inch */
+@media screen and (max-width : 970px) {
+
+}
+
+/* for all tab inch */
+@media  screen and (max-width:884px) {
+    .item_header{
+        padding: 20px 80px;
+    }
+}
+
+/* for all mobile inch */
+@media  screen and (max-width:750px) {
+    .item_header{
+        padding: 20px 10px;
+    }
+    .item_r h3{
+        font-size: 18px;
+    }
+    .item_r p{
+        font-size: 15px;
+    }
+    .item_l{
+        font-size: 15px;
+    }
+   
+    .button_cus {
+      
+   display: none;
+    }
+    .button_cus button{
+        display: none;
+    
+    
+    }
+    .c{
+        display: none;
+    }
+}
+
+@media  screen and (max-width:390px) {
+    .item_header{
+        justify-content: space-around;
+        padding: 20px 0px;
+    }
+}
