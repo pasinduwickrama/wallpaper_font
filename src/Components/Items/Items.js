@@ -5,6 +5,7 @@ import Animation from './Slider/Animation';
 import Phone from './Phone/Phone';
 import Desktop from './Desktop/Desktop';
 
+
 const Items = () => {
     const [isAdd, toAdd] = useState(false);
   return (
@@ -21,6 +22,7 @@ const Items = () => {
             </div>
         </div>
         <div className='item_cus'>
+        
         <p> <Animation />  </p>
         </div>
         <div className='item_phone'>

@@ -31,6 +31,16 @@
 
 
 }
+.img_cus{
+    padding: 10px 10px;
+    
+}
+.img_cus img{
+ width: 100%;
+ height: 300px;
+ 
+
+}
 .button_cus {
     padding: 10px 0px;
 
@@ -99,6 +109,13 @@
     }
     .c{
         display: none;
+    }
+    .cc{
+        width: 100%;
+    }
+    .img_cus{
+        padding: 0px 0px;
+        
     }
 }
 

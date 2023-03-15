@@ -2,7 +2,9 @@ import React from 'react'
 import './header.css'
 import { FiSearch } from 'react-icons/fi';
 import { CiCirclePlus } from 'react-icons/ci';
+import { useNavigate } from 'react-router-dom';
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <div className='header_body'>
     <div className='heder_item'>
@@ -18,7 +20,7 @@ const Header = () => {
         </div>
         <div className='heder_l'>
             
-           <div> JOIN <samp><CiCirclePlus size={42} color='white' /></samp></div>
+           <div onClick={()=>{navigate('/lo')}}> JOIN <samp><CiCirclePlus size={42} color='white' /></samp></div>
         </div>
     </div>
     <div className='header_text'>
